@@ -1,14 +1,12 @@
 const   height= document.querySelector(".height"), 
         weight = document.querySelector(".weight"),
-        calculate = document.querySelector (".calc"),
+        calculate = document.querySelector (".calculate"),
         result = document.querySelector (".result"),
         reset = document.querySelector (".reset");
 
-// attach an event listener to a click event on an HTML element. The event listener is set to execute a function named calBMI when the click event occurs.
 calculate. addEventListener("click", calBMI);
 reset.addEventListener("click", resetForm);
 
-// This declares a function named calBMI that takes an event object (e) as its parameter.Event objects are automatically passed to event handler functions and contain information about the event, such as its type, target element, and any additional data related to the event.
 function calBMI (e) {
     e.preventDefault()
 
