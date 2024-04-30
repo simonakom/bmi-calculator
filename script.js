@@ -16,10 +16,10 @@ function calBMI (e) {
     if (heightValue === "" && weightValue === "") {
         result.innerText = (`You didn't enter any information.\n Please, provide valid height and weight!`)
     } else if (heightValue === "" || isNaN(heightValue)) {
-        result.innerText = "Please, provide a height"
+        result.innerText = "Please, provide a height";
     }
     else if (weightValue === "" || isNaN(weightValue)) {
-        result.innerText = "Please, provide a weight"
+        result.innerText = "Please, provide a weight";
     } else {
         let heightMeters = heightValue/100
         let bmi = (weightValue/Math.pow(heightMeters, 2)).toFixed(2)
