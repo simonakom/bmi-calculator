@@ -1,4 +1,4 @@
-# <span><img src="./bmi.png" alt=bmi style="height: 1em; vertical-align: middle;"></span> BMI-calculator App
+# <span><img src="./bmi.png" alt=bmi style="height: 1em;"></span> BMI-calculator App
 
 This responsive app is created with javascript & bootstrap that calculates the BMI based on the data provided
 
